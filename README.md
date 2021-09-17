@@ -2,6 +2,7 @@
 
 This project contains API services that accept BTC :wink:
 
+PS: I didn't use any databases, just stored on the cache to be simple so if the program is re-run, data is in the memory will be lost.
 ## Steps to start
 
 -  Clone the repo
@@ -21,9 +22,9 @@ This project contains API services that accept BTC :wink:
    ```
 3. Run :
    ```
-   go run main.go
+   go run cmd/main.go
    ```
- ## API endpoints  
+ ## API endpoints
  - Save Records Sample Request
      ```
        curl -X POST \

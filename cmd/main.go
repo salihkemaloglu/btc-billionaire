@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/patrickmn/go-cache"
-	"github.com/salihkemaloglu/btc-billionaire/handler"
+	"github.com/salihkemaloglu/btc-billionaire/pkg/handler"
 )
 
 func main() {

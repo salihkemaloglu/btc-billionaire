@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 
 	"github.com/patrickmn/go-cache"
-	"github.com/salihkemaloglu/btc-billionaire/model"
+	"github.com/salihkemaloglu/btc-billionaire/pkg/model"
 )
 
 // static user wallet id
